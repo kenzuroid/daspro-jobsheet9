@@ -11,7 +11,7 @@ public class CafeOrder22 {
         String[] namaPesanan = new String[jmlPesanan];
         double[] hrgPesanan = new double[jmlPesanan];
 
-        for (int i = 0; i < jumlahPesanan; i++) {
+        for (int i = 0; i < jmlPesanan; i++) {
             System.out.print("Masukkan nama pesanan ke-" + (i + 1) + ": ");
             namaPesanan[i] = scanner.nextLine();
 
