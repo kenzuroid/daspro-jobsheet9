@@ -10,7 +10,11 @@ public class ArrayNilai22 {
             nilaiakhir[i] = sc.nextInt();
         }
         for (int i = 0; i < 10; i++) {
-            System.out.println("Nilai Akhir ke-" + i + " adalah " + nilaiakhir[i]);
+            if (nilaiakhir[i] > 70) {
+            System.out.println("Mahasiswa ke-" + i + " LULUS!");
+            } else {
+                System.out.println("Mahasiswa ke-" + i + " TIDAK LULUS!");
+            }
         }
     }
 }
