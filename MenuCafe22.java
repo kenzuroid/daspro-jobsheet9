@@ -33,6 +33,8 @@ public class MenuCafe22 {
             if (!ditemukan) {
                 System.out.println("Maaf, makanan \"" + namaMakanan + "\" tidak ada di menu.");
                 i--;
+            } else {
+                System.out.println("Makanan/Minuman \""+ namaMakanan + "\" Tersedia");
             }
         }
 
